@@ -1,14 +1,14 @@
 {
-  "name": "ng-bis",
+  "name": "ng-arc",
   "version": "0.0.1",
   "description": "A new, proven, simpler architecture/best practice for Angular 1.x",
-  "main": "dist/ng-bis.js",
+  "main": "dist/ng-arc.js",
   "scripts": {
     "test": "karma start --single-run"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/andrewstuart/ng-bis.git"
+    "url": "git+ssh://git@github.com/andrewstuart/ng-arc.git"
   },
   "keywords": [
     "angular",
@@ -20,9 +20,9 @@
   "author": "Andrew Stuart <andrew.stuart2@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrewstuart/ng-bis/issues"
+    "url": "https://github.com/andrewstuart/ng-arc/issues"
   },
-  "homepage": "https://github.com/andrewstuart/ng-bis#readme",
+  "homepage": "https://github.com/andrewstuart/ng-arc#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",

@@ -1,1 +1,1 @@
-})(angular.module('ng-bis', []));
+})(angular.module('ng-arc', []));

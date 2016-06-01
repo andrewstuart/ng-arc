@@ -1,7 +1,7 @@
 module.directive('withService', function($injector) {
     /**
      * @ngdoc directive
-     * @name ng-bis.directive:withService
+     * @name ng-arc.directive:withService
      * @param {String} withService The name of the service to inject. May be
      * an expression "X as Y" in which case the X service will be exposed by
      * the name Y.
@@ -11,7 +11,7 @@ module.directive('withService', function($injector) {
      * @example
      * <example module="withServiceExample">
      *   <file name="example.js">
-     *     angular.module('withServiceExample', ['ng-bis'])
+     *     angular.module('withServiceExample', ['ng-arc'])
      *       .service('ExampleService', function() {
      *         this.foo = 'foo';
      *       }).service('ExampleServiceTwo', function() {
