@@ -1,3 +1,12 @@
+# Introduction
+
+Over years of building Angular 1.x projects, and trying out recommended best
+practices, I came to realize that some things just weren't working, and there
+was a better way. The following summarizes my observations and new recommended
+best practices which I have personally used and can vouch for their efficacy in
+reducing defects and increasing development velocity and maintainability.
+Comments and PRs are welcome.
+
 # Angular, the Good Parts
 - Separation of concerns -- html templates, js services.
 - `track by` in `ng-repeat`. Lack of `track by` in `ng-repeat` expressions is
