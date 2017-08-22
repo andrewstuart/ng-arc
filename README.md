@@ -48,9 +48,7 @@ Comments and PRs are welcome.
 
 # New Best Practices
 - A [new
-    directive](https://andrewstuart.github.io/ng-a11y/#/api/ng-a11y.directive:withService)
-    that supports explicitly importing services into angular templates.
+    directive](https://andrewstuart.github.io/ng-arc/#/api/ng-arc.directive:withService) that supports explicitly importing services into angular templates. 
 - Effective deprecation of "Controllers." Much more often than not, these add a
     layer of obscurity and end up taking references. This might seem to clean
     things up, but it creates bugs when the references become stale.
-- 
