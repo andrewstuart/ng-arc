@@ -24,13 +24,13 @@ module.directive('withService', ["$injector", function($injector) {
      *   <file name="example.html">
      *     <div>
      *       <div with-service="ExampleService">
-     *         ExampleService.foo: {{ExampleService.foo}}
+     *         ExampleService.foo: <em>{{ExampleService.foo}}</em>
      *       </div>
      *       <div with-service="ExampleServiceTwo as es">
-     *         Now ExampleServiceTwo is aliased to es. es.bar: {{es.bar}}.
+     *         Now ExampleServiceTwo is aliased to es. es.bar: <em>{{es.bar}}<em>.
      *       </div>
      *       <div with-service="{es: 'ExampleService', es2: 'ExampleServiceTwo'}">
-     *         You can name multiple services too. es.foo: {{es.foo}}, es2.bar: {{es2.bar}}, es2.baz: {{es2.baz}}.
+     *         You can name multiple services too. es.foo: <em>{{es.foo}}<em>, es2.bar: <em>{{es2.bar}}</em>, es2.baz: <em>{{es2.baz}}</em>.
      *       </div>
      *     </div>
      * 	 </file>
