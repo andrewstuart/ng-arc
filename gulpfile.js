@@ -9,7 +9,7 @@ var distFolder = 'dist';
 var pkg = require('./package.json');
 
 gulp.task('build', function() {
-    return gulp.src(['src/pre.js', 'src/*/*.js', 'src/post.js'])
+    return gulp.src(['src/module.js', 'src/*/*.js'])
     .pipe($.concat(pkg.name + '.js'))
     .pipe($.ngAnnotate())
     .pipe(gulp.dest(distFolder))

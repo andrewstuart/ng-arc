@@ -35,9 +35,12 @@
     "karma": "^0.13.22",
     "karma-coverage": "^1.0.0",
     "karma-jasmine": "^1.0.2",
-    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.4",
     "lodash": "^4.13.1",
     "merge-stream": "^1.0.0",
+    "jasmine-core": "^2.7.0",
     "yargs": "^4.7.1"
+  },
+  "dependencies": {
   }
 }

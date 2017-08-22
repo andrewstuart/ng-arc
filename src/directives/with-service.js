@@ -1,4 +1,4 @@
-module.directive('withService', function($injector) {
+angular.module('ng-arc').directive('withService', function($injector) {
     /**
      * @ngdoc directive
      * @name ng-arc.directive:withService
