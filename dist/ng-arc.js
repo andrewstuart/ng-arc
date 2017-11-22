@@ -1,6 +1,6 @@
-(function(module) {
+angular.module('ng-arc', []);
 
-module.directive('withService', ["$injector", function($injector) {
+angular.module('ng-arc').directive('withService', ["$injector", function($injector) {
     /**
      * @ngdoc directive
      * @name ng-arc.directive:withService
@@ -37,6 +37,7 @@ module.directive('withService', ["$injector", function($injector) {
      * </example>
      */
     return {
+        priority: 10000,
         restrict: 'A',
         scope: true,
         link: function($scope, iEle, iAttrs) {
@@ -74,5 +75,3 @@ module.directive('withService', ["$injector", function($injector) {
         }
     };
 }]);
-
-})(angular.module('ng-arc', []));

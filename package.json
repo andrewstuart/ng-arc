@@ -41,6 +41,5 @@
     "jasmine-core": "^2.7.0",
     "yargs": "^4.7.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
