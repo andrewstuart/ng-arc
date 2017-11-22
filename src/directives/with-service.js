@@ -35,6 +35,7 @@ angular.module('ng-arc').directive('withService', function($injector) {
      * </example>
      */
     return {
+        priority: 10000,
         restrict: 'A',
         scope: true,
         link: function($scope, iEle, iAttrs) {
